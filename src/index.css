@@ -1,7 +1,7 @@
-@import '@fontsource/roboto/400.css';
+@import '@fontsource/inter/400.css';
 
 :root {
-  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -9,4 +9,32 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    color: #aaffaa;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: currentColor;
+    bottom: 0;
+    left: 0;
+    margin-right: none;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover:after {
+    margin-right: auto;
+    width: 100%;
+  }
 }
