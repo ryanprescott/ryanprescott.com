@@ -71,7 +71,7 @@ export default function Home() {
       </Link>
       <Bullet />
       <Link
-        to="https://www.github.com/ryanpdev"
+        to="https://www.github.com/ryanprescott"
         style={{ width: 'fit-content' }}
       >
         github
