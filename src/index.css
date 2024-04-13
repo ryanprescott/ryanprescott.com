@@ -13,12 +13,12 @@
 
 a {
   color: #ffffff;
-  text-decoration: none;
+
   position: relative;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    color: #aaffaa;
+    color: #ff0000;
   }
 
   &:after {

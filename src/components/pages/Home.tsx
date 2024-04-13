@@ -46,15 +46,37 @@ export default function Home() {
           Prescott
         </Typography>
       </Typography>
-      ceo of&nbsp;
+      founder, owner & ceo of:
+      <br />
       <Link to="https://schoodic.io/" style={{ width: 'fit-content' }}>
         schoodic solutions
       </Link>
-      <Bullet />
-      <Link to="https://www.linkedin.com/company/schoodic">linkedin</Link>
-      <Bullet />
-      <Link to="https://www.github.com/schoodicsolutions">github</Link>
       <br />
+      <Link to="https://www.facebook.com/brokeceorecords/">
+        broke ceo records
+      </Link>
+      <br /><br />
+      <Link
+        to="https://open.spotify.com/artist/1qYoSDz9q1e0PM20jL6fRu"
+        style={{ width: 'fit-content' }}
+      >
+        spotify
+      </Link>
+      <Bullet />
+      <Link
+        to="https://ryanprescott.bandcamp.com/"
+        style={{ width: 'fit-content' }}
+      >
+        bandcamp
+      </Link>
+      <Bullet />
+      <Link
+        to="https://www.youtube.com/c/ryanprescott"
+        style={{ width: 'fit-content' }}
+      >
+        youtube
+      </Link>
+      <br /><br />
       personal&nbsp;
       <Link
         to="https://www.linkedin.com/in/ryanpdev"
