@@ -46,38 +46,12 @@ export default function Home() {
           Prescott
         </Typography>
       </Typography>
-      founder, owner & ceo of:
-      <br />
+      freelancing d/b/a&nbsp;
       <Link to="https://schoodic.io/" style={{ width: 'fit-content' }}>
         schoodic solutions
       </Link>
-      <br />
-      <Link to="https://www.facebook.com/brokeceorecords/">
-        broke ceo records
-      </Link>
+
       <br /><br />
-      <Link
-        to="https://open.spotify.com/artist/1qYoSDz9q1e0PM20jL6fRu"
-        style={{ width: 'fit-content' }}
-      >
-        spotify
-      </Link>
-      <Bullet />
-      <Link
-        to="https://ryanprescott.bandcamp.com/"
-        style={{ width: 'fit-content' }}
-      >
-        bandcamp
-      </Link>
-      <Bullet />
-      <Link
-        to="https://www.youtube.com/c/ryanprescott"
-        style={{ width: 'fit-content' }}
-      >
-        youtube
-      </Link>
-      <br /><br />
-      personal&nbsp;
       <Link
         to="https://www.linkedin.com/in/ryanpdev"
         style={{ width: 'fit-content' }}
@@ -97,6 +71,27 @@ export default function Home() {
         style={{ width: 'fit-content' }}
       >
         github
+      </Link>
+      <br />
+      <Link
+        to="https://open.spotify.com/artist/1qYoSDz9q1e0PM20jL6fRu"
+        style={{ width: 'fit-content' }}
+      >
+        spotify
+      </Link>
+      <Bullet />
+      <Link
+        to="https://ryanprescott.bandcamp.com/"
+        style={{ width: 'fit-content' }}
+      >
+        bandcamp
+      </Link>
+      <Bullet />
+      <Link
+        to="https://www.youtube.com/c/ryanprescott"
+        style={{ width: 'fit-content' }}
+      >
+        youtube
       </Link>
       <br />
       <Typography sx={{ marginTop: '2rem' }}>thanks for stopping by</Typography>
