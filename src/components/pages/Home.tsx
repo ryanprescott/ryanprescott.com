@@ -54,22 +54,14 @@ export default function Home() {
       </Link>
 
       <br />
-      {/* <Link
-        to="https://www.linkedin.com/in/ryanpdev"
+      <Link
+        to="https://www.linkedin.com/in/ryanschoodic"
         style={{ width: 'fit-content' }}
       >
         linkedin
-      </Link>      
-       <Bullet />
-       */}
-
-      <Link
-        to="https://www.twitter.com/coastalpeasant"
-        style={{ width: 'fit-content' }}
-      >
-        twitter
       </Link>
       <Bullet />
+
       <Link
         to="https://www.github.com/ryanprescott"
         style={{ width: 'fit-content' }}
